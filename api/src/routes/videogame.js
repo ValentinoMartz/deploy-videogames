@@ -1,7 +1,7 @@
 const { API_KEY } = process.env;
 const { Router } = require("express");
 const router = Router();
-const axios = require("axios").default;
+const axios = require("axios");
 const { Videogames, Genres } = require("../db");
 
 /* [ ] GET /videogame/{idVideogame}:
