@@ -11,7 +11,7 @@ import {
 } from "./actionTypes";
 import axios from "axios";
 
-let URL = "https://videogames-valentinomartinez.herokuapp.com/";
+const URL = "https://videogames-valentinomartinez.herokuapp.com/";
 export const getAllVideogames = () => {
   return async function (dispatch) {
     try {
