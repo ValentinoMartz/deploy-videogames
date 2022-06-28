@@ -1,0 +1,28 @@
+.div_filter {
+  margin-left: 45%;
+  display: flex;
+  flex-wrap: nowrap;
+  /* height: 40%;
+  width: 30%; */
+  margin-top: 0%;
+  align-content: space-between;
+}
+.div_origin {
+  margin-right: 13%;
+}
+.select_filter {
+  border-radius: 80px;
+  background-color: rgb(191, 123, 255, 0.781);
+  color: rgb(231, 206, 255);
+  border: 2px solid;
+}
+
+.div_genres {
+  margin-right: 13%;
+}
+.div_rating {
+  margin-right: 13%;
+}
+.div_az {
+  margin-right: 13%;
+}

@@ -1,0 +1,11 @@
+export const GET_ALL_VIDEOGAMES = "GET_ALL_VIDEOGAMES";
+export const GET_VIDEOGAME_ID = "GET_VIDEOGAME_ID";
+export const GET_ALL_GENRES = "GET_ALL_GENRES";
+export const POST_VIDEOGAME = "POST_VIDEOGAME";
+export const GET_VIDEOGAME_NAME = "GET_VIDEOGAME_NAME";
+export const CLEAR_STATE = "CLEAR_STATE";
+export const ORDER_BY = "ORDER_BY";
+export const FILTER_BY_ORIGIN = "FILTER_BY_ORGIN";
+export const FILTER_BY_GENRE = "FILTER_BY_GENRE";
+export const ORDER_BY_RATING = "ORDER_BY_RATING";
+export const ORDER_BY_AZ = "ORDER_BY_AZ";

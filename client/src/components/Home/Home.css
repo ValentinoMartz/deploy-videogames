@@ -1,0 +1,33 @@
+.home_div {
+  display: inline-block;
+  background-image: url("../img/pac.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 235vh;
+  width: 100%;
+}
+.div_card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.div_loading {
+  margin-left: 30%;
+}
+
+.div_h1 {
+  margin-top: 30%;
+  margin-right: -96%;
+  text-align: center;
+}
+.img_loading {
+  margin-left: 50%;
+  margin-right: 50%;
+  margin-top: 5%;
+  margin-bottom: 50%;
+  padding-bottom: 43%;
+}
