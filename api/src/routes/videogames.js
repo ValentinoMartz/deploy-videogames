@@ -7,19 +7,19 @@ const { Videogames, Genres } = require("../db");
 
 //Llamo a la api
 const callApi = async () => {
-  const api = await axios.get(`https://api.rawg.io/api/games?key=${API_KEY}`);
+  const api = await axios.get(`http://api.rawg.io/api/games?key=${API_KEY}`);
 
   const page2 = await axios.get(
-    `https://api.rawg.io/api/games?key=${API_KEY}&page=2`
+    `http://api.rawg.io/api/games?key=${API_KEY}&page=2`
   );
   const page3 = await axios.get(
-    `https://api.rawg.io/api/games?key=${API_KEY}&page=3`
+    `http://api.rawg.io/api/games?key=${API_KEY}&page=3`
   );
   const page4 = await axios.get(
-    `https://api.rawg.io/api/games?key=${API_KEY}&page=4`
+    `http://api.rawg.io/api/games?key=${API_KEY}&page=4`
   );
   const page5 = await axios.get(
-    `https://api.rawg.io/api/games?key=${API_KEY}&page=5`
+    `http://api.rawg.io/api/games?key=${API_KEY}&page=5`
   );
 
   let apiConcat = await api.data.results.concat(
