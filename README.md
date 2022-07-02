@@ -20,7 +20,7 @@ Proyecto VideoGames App - Henry 2022
 Se trata del desarrollo de una SPA(Single Page Application) utilizando React y Redux para el Front-End.
 Por otro lado, para el Back-End utilicé Express, NodeJS y PostgreSQL.
 Los estilos fueron aplicados con CSS, sin el uso de librerías externas.
-Consumiendo los datos de la API: https://pokeapi.co/ .
+Los datos de consumen de la api https://rawg.io
 
 Funcionalidades: </br>
 
